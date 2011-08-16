@@ -25,6 +25,16 @@ easier to cut the traces should the user want to rewire things --
 to make use of the hardware SPI, for example.
 
 
+Prototypes
+----------
+
+The items in the prototypes directory are the versions that were sent for 
+short-run fabrication. The pin-out of the first prototype differs from
+the new version. The second prototype has a few minor adjustments made
+to make it compatible with the fabrication service (0.1" milling bit,
+etc.). 
+
+
 Thanks
 ------
 
