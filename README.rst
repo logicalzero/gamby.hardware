@@ -10,19 +10,14 @@ format (e.g. gEDA), please contact me!
 Design Notes
 ------------
 
-* Every Arduino pin has a second pad. These pads conform to a uniform .1"
-spacing, correcting the .05" offset of the header for digital I/O pins 
-8-13 and GND/AREF.
+* Every Arduino pin has a second pad. These pads conform to a uniform .1" spacing, correcting the .05" offset of the header for digital I/O pins 8-13 and GND/AREF.
 
-* Although it uses the same pins, this design does not use the ATMega's 
-built-in SPI. Since this device does not support bidirectional communication,
-using the built-in SPI would have wasted a pin; it would have overly
-complicated the traces as well.
+* Although it uses the same pins, this design does not use the ATMega's built-in SPI. Since this device does not support bidirectional communication,
+using the built-in SPI would have wasted a pin; it would have overly complicated the traces as well.
 
-* The traces between all of the 'used' Arduino pins and the second pad
-have been left uncovered by the bottom soldermask. This is to make it
-easier to cut the traces should the user want to rewire things --
-to make use of the hardware SPI, for example.
+* The traces between all of the 'used' Arduino pins and the second pad have been left uncovered by the bottom soldermask. This is to make it easier to cut the traces should the user want to rewire things -- to make use of the hardware SPI, for example.
+
+* The sound, D-Pad and buttons have pads for headers; the pads are shorted by a thin, uncovered trace. The sound and inputs can be disabled by cutting this trace, then re-enabled by adding a 2-pin header (3 pins, in the case of sound) and a jumper.
 
 
 Prototypes
