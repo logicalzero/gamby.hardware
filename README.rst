@@ -35,6 +35,15 @@ to make it compatible with the fabrication service (0.1" milling bit,
 etc.). 
 
 
+Datasheets
+----------
+
+* LCD: Samsung UG09B63-FLGT4AA using `S6B0755 LCD Controller <http://www.alldatasheet.com/datasheet-pdf/pdf/37866/SAMSUNG/S6B0755.html>`__ or compatible (some features unsupported)
+* D-Pad: `ALPS SKQAAA010 4-direction switch <http://www.alldatasheet.com/datasheet-pdf/pdf/329112/ALPS/SKQU.html>`__
+* Piezo speaker: `TDK PS1240P02BT <http://www.alldatasheet.com/datasheet-pdf/pdf/349367/TDK/PS1720P02.html>`__
+* Backlight LEDs: `Dialight 598-8340-107F <http://www.dialight.com/Assets%5CBrochures_And_Catalogs%5CIndication%5CMDEI5981208RT.pdf>`__
+
+
 Thanks
 ------
 
